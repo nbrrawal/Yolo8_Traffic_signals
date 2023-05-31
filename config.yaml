@@ -1,0 +1,14 @@
+
+
+path: E:/Dev/SD/traffic/data/  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/train  # val images (relative to 'path')
+
+nc: 4
+
+# Classes
+names:
+  0: prohibitory
+  1: danger
+  2: mandatory
+  3: other
